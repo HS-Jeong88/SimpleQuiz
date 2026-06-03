@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <title>디바이스 퀴즈</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin-top: 50px;
+    }
+
+    #question {
+      font-size: 24px;
+      margin-bottom: 20px;
+      font-weight: bold;
+    }
+
+    input {
+      padding: 10px;
+      width: 250px;
+    }
+
+    button {
+      padding: 10px 20px;
+      margin: 5px;
+      cursor: pointer;
+    }
+
+    #result {
+      margin-top: 20px;
+      font-size: 20px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>디바이스 퀴즈</h1>
+
+  <div id="question">재시작 버튼을 눌러 문제를 시작하세요</div>
+
+  <input type="text" id="answerInput" placeholder="정답 입력">
+
+  <br><br>
+
+  <button id="checkBtn">확인</button>
+  <button id="restartBtn">재시작</button>
+
+  <div id="result"></div>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
